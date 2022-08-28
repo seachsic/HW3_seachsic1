@@ -314,7 +314,8 @@ background-color: var(--light-grey-clr);
 }
 
 .person-container {
-    padding: 94px 0;
+padding-top: 94px;
+padding-bottom: 94px;
 }
 
 .person-list {
@@ -382,7 +383,7 @@ font-family: var(--logo-font);
     letter-spacing: 0.03em;
     color: var(--light-txt-clr);
     text-decoration: none;
-    display: block;
+    display: inline-block;
     margin-bottom: 20px;
 }
 
@@ -403,6 +404,11 @@ padding-left: 0;
         text-decoration: none;
         margin-bottom: 9px;
 }
+
+.footer-text:last-child {
+    margin-bottom: 0px;
+}
+
 .footer-text:hover {
 color: var(--main-clr);
 }
@@ -417,6 +423,7 @@ color: var(--main-clr);
         letter-spacing: 0.03em;
         color: var(--foot-grey-clr);
         text-decoration: none;
+        display: inline-block;
 }
 
 .footer-mail:hover {
